@@ -30,3 +30,17 @@ header {
 .icon {
   font-size: 18px;
 }
+
+.post-list {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.card-post {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #FFF;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
