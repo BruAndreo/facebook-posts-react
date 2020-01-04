@@ -1,4 +1,5 @@
 import React from 'react';
+import Comment from './Comment';
 
 function Post({ post }) {
   return (
@@ -16,6 +17,8 @@ function Post({ post }) {
       <p className="conteudo-post" >{post.content}</p>
 
       <hr />
+
+      {post.comments.map(comment => <Comment key={comment.id} comment={comment} />)}
     </div>
   );
 }
