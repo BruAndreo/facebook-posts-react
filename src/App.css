@@ -43,4 +43,34 @@ header {
   background-color: #FFF;
   border-radius: 8px;
   margin-bottom: 20px;
+  padding: 20px;
+}
+
+.imagem-perfil {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  float: left;
+}
+
+.nome-perfil {
+  font-size: 16px;
+  font-weight: bold;
+  color: #040438;
+}
+
+.data-post {
+  font-size: 12px;
+  color: #afafaf;
+}
+
+.nome-data {
+  float: left;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.conteudo-post {
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
